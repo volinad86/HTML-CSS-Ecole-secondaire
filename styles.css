@@ -156,3 +156,34 @@ li.dropdown {
 #myVideo{
     width: 100%;
 }
+
+/* div generale! pour rétrécir la page sur les côtés */
+.generale{
+    margin-right: 7%;
+    margin-left: 7%;
+}
+.ecole{
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.desk1{
+    flex-direction: column;
+    justify-content: center;
+    background-color: white; 
+}
+
+.description{
+    font-family: 'Roboto', sans-serif;
+    padding: 10%;
+    text-align: center;
+    font-size: 25px;
+}
+.linkd{
+    display: flex;
+    justify-content: center;
+    font-family: 'Square Peg', cursive;
+    font-size: 30px;
+    padding: 5%;
+}
