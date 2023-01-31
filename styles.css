@@ -269,4 +269,34 @@ color: #666666;
 .zoom  :hover {
     transform: scale(1.2)
 }
+/* ===================================== */
+/* FORMS */
+.features1{     
+    display: flex;
+    background-color: #213d4a;
+    justify-content: space-evenly
+}
+.linkat1, .linkatl{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    }
+    .linkat2{
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+    }
+    .linkat1:hover, .linkat2:hover{
+        color: #3966ab;
+    }
+    .fin{
+        display: flex;
+        flex-direction: column;
+        padding: 35px;
+    }
+    .logofin {
+        align-self: center;
+        padding: 8px;
+        color: #213d4a;
+    }
 
