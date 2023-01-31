@@ -2,8 +2,8 @@ body{
     background-color: #edf6f8;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-
 }
+
 /* en-tête de profil */
 .head{
     display: flex;
@@ -11,7 +11,6 @@ body{
     padding: 15px;
     background-color: white;
 }
-
 
 .start {
     display: flex;
@@ -25,218 +24,49 @@ body{
     height: 40px;
     border-radius: 40px;
     padding: 10px;
-    }
-
-    .search-box:hover > .search-txt {
-        width: 240px;
-        padding: 0 6px;
-        }
-        
-        .search-box:hover > .search-btn {
-        background: white;
-        color: black;
-        }
-
-    .search-btn {
-        color: #eeeeee;
-        float: right;
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        background: #2f3640;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: 0.4s;
-        color: white;
-        cursor: pointer;
-        text-decoration:none;
-        }
-        .search-btn > i {
-        font-size: 20px;
-        }   
-
-
-    .search-txt {
-            border: none;
-            background: none;
-            outline: none;
-            float: left;
-            padding: 0;
-            color: white;
-            font-size: 16px;
-            transition: 0.4s;
-            line-height: 40px;
-            width: 0px;
-            font-weight: bold;
-            }
-
-/* en-tête de profil */
-.head{
-    display: flex;
-    justify-content: flex-end;
-    padding: 15px;
-    background-color: white;
 }
 
-
-.start {
-    display: flex;
-    flex:1;
+.search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
 }
 
-
-/* signe de recherche  */
-.search-box{
-    position: absolute;
-    background: #666666;
-    height: 40px;
-    border-radius: 40px;
-    padding: 10px;
-    }
-
-    .search-box:hover > .search-txt {
-        width: 240px;
-        padding: 0 6px;
-        }
-        
-        .search-box:hover > .search-btn {
-        background: white;
-        color: black;
-        }
-
-    .search-btn {
-        color: #eeeeee;
-        float: right;
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        background: #2f3640;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: 0.4s;
-        color: white;
-        cursor: pointer;
-        text-decoration:none;
-        }
-        .search-btn > i {
-        font-size: 20px;
-        }   
-
-
-    .search-txt {
-            border: none;
-            background: none;
-            outline: none;
-            float: left;
-            padding: 0;
-            color: white;
-            font-size: 16px;
-            transition: 0.4s;
-            line-height: 40px;
-            width: 0px;
-            font-weight: bold;
-            }
-/* ---------------------------------------------------- */
-/* sélection de programmes et bouton d'inscription */
-.list{
-    display: flex;
-    justify-content: flex-end;
-    padding: 35px 15px;
-}
-
-.list2{
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: -130px;
-}
-.list3{
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: -20px;
-} 
-
-.first{
-    flex: 1;
-    color: #213d4a;
-}
-
-.chomedey {
-    text-decoration: none;
-    color: #213d4a;
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    
-}
-
-ul {
-    
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-
-}
-
-li a, .dropbtn {
-    display: inline-block;
-    text-align: center;
-    padding: 20px 25px;
-    text-decoration: none;
-    color: #213d4a;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-}
-li a:hover, .dropdown:hover .dropbtn {
-    color:#70a1ef;
-    text-decoration: underline;
-    background-color: #213d4a;
-    
-}
-li.dropdown {
-    display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-.dropdown-content a {
+.search-box:hover > .search-btn {
+    background: white;
     color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
+    }
 
-.dropdown-content a:hover {background-color: #f1f1f1} 
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-
-/*  bouton d'inscription   */
-.cta{
-    background-color: #3966ab;
+.search-btn {
+    color: #eeeeee;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
     color: white;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+.search-btn > i {
     font-size: 20px;
-    border-radius: 10px;
-    padding: 10px 20px;
+    } 
 
-}
-.cta:hover{
-background-color: rgb(4, 96, 96);
-}
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    font-weight: bold;
 
-/* ======================================================= */
-
-
-#myVideo{
-    width: 100%;
 }
