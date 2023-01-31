@@ -68,5 +68,91 @@ body{
     line-height: 40px;
     width: 0px;
     font-weight: bold;
+}
+/* sélection de programmes et bouton d'inscription */
+.list{
+    display: flex;
+    justify-content: flex-end;
+    padding: 35px 15px;
+}
 
+.first{
+    flex: 1;
+    color: #213d4a;
+}
+
+.chomedey {
+    text-decoration: none;
+    color: #213d4a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: #213d4a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    color:#70a1ef;
+    text-decoration: underline;
+    background-color: #213d4a;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.cta{
+    background-color: #3966ab;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+/*  bouton d'inscription   */
+}
+.cta:hover{
+    background-color: rgb(4, 96, 96);
+}
+
+#myVideo{
+    width: 100%;
 }
