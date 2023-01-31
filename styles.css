@@ -214,3 +214,59 @@ li.dropdown {
     margin-bottom: -5%;
     padding: 20px;
 }
+
+/* infos photos cliquables */
+.info{
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    padding: 2%;
+}
+/* signe de l'arobas avec la conclusion du professeur */
+.at{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10%;
+    margin-top: 8%;
+}
+.title3{
+    display: flex;
+    justify-content: center;
+    font-family: 'Square Peg', cursive;
+    margin-top: -10%;
+}
+
+/* les photos cliquables ZOOM- */
+.features{     
+    display: flex;
+    margin: 0 auto; 
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+}
+
+.linkat{
+text-decoration: none;
+padding: 25px 10px;
+font-size: 25px;
+color: #666666;
+}
+.linkat:hover{
+    color: #3966ab ;
+}
+.zoom{
+    display: inline-block; 
+    overflow: hidden;
+    transition: 1s; 
+    padding: 10px;
+}
+
+.zoom  :hover {
+    transform: scale(1.2)
+}
+
