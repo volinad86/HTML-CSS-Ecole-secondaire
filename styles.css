@@ -1,0 +1,19 @@
+body{
+    background-color: #edf6f8;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+/* en-tête de profil */
+.head{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    background-color: white;
+}
+
+
+.start {
+    display: flex;
+    flex:1;
+}
