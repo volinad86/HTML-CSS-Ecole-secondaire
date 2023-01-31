@@ -221,4 +221,22 @@ li.dropdown {
 }
 
 
+/*  bouton d'inscription   */
+.cta{
+    background-color: #3966ab;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
 
+}
+.cta:hover{
+background-color: rgb(4, 96, 96);
+}
+
+/* ======================================================= */
+
+
+#myVideo{
+    width: 100%;
+}
