@@ -187,3 +187,30 @@ li.dropdown {
     font-size: 30px;
     padding: 5%;
 }
+
+/* l'école en chiffres H1 */
+.title1{
+    font-family: 'Square Peg', cursive;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.features{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list2{
+    display: flex;
+    justify-content: flex-end;
+}
+.link.design{
+    padding: 75px 40px;
+}
+.title2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Square Peg', cursive;
+    margin-bottom: -5%;
+    padding: 20px;
+}
