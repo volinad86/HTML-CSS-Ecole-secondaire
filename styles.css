@@ -359,15 +359,10 @@ color: #666666;
     border-radius: 40px;
     padding: 10px;
     }
-
-
-
     .chec, .featuresm{
         display: none;
     }
-    
     @media all and (max-width: 850px){
-
         .description{
                 align-self: center;
                 font-family: 'Roboto', sans-serif;
@@ -385,10 +380,8 @@ color: #666666;
             width: 100%;
         }
         .chec{
-        
             display: block;
         } 
-        
         .featuresm{
         justify-content: center;
         align-items: center;
@@ -397,7 +390,6 @@ color: #666666;
         background-color: #213d4a;
         flex-wrap: wrap;
         }
-
         .cta{
             background-color:#213d4a ;
             margin: 0 auto;
