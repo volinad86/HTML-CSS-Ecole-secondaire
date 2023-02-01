@@ -339,3 +339,29 @@ color: #666666;
         content: '\f00d';
         color: #f00;
         }
+
+        /*  Menu Sandwich */
+#btn-menu + label{
+    display: inline-block;
+}
+#btn-menu + label + .list-menu{
+    display: none;
+}
+#btn-menu:checked + label + .list-menu{
+    display: block;
+}
+
+/* SEARCH */
+.search-box{
+    position: absolute;
+    background: #666666;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    }
+
+
+
+    .chec, .featuresm{
+        display: none;
+    }
