@@ -365,3 +365,74 @@ color: #666666;
     .chec, .featuresm{
         display: none;
     }
+    
+    @media all and (max-width: 850px){
+
+        .description{
+                align-self: center;
+                font-family: 'Roboto', sans-serif;
+                padding: 75px 30px;
+                background-color: white; 
+                font-size: 18px;
+            } 
+        .if{
+            text-align: center;
+        }
+        .info, .ecole, .features {
+            flex-direction: column;
+        } 
+        .info2{
+            width: 100%;
+        }
+        .chec{
+        
+            display: block;
+        } 
+        
+        .featuresm{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        background-color: #213d4a;
+        flex-wrap: wrap;
+        }
+
+        .cta{
+            background-color:#213d4a ;
+            margin: 0 auto;
+            display: block;
+            }
+        .list, .features1{
+        display: none;
+        }
+        .list2{
+            flex-direction: column-reverse;
+        }
+        .linkat{
+            text-align: center;
+            margin-top: -7%;
+        }
+        .features{
+            display: flex;
+            
+        }
+        .batiment, .chifre{
+            width: 88%;
+            height: 92%;
+            align-self: center;
+            margin-bottom: 2%;
+            
+        }
+        .description{
+            margin-bottom: 7%;
+        }
+        div.zoom{
+            display: flex;
+            justify-content: center;
+        }
+        .zoom{
+            text-align: center;
+        }
+
+}
